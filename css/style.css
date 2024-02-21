@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px;
+}
+
+#content{
+    width: 50%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1d0b1;
+    flex-direction: column;
+    color: #551713;
+    border-radius: 4px;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+p{
+    padding: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#form-container{
+    margin-left: 45px;
+}
+
+.label_name{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text]{
+    width: 10%;
+    height: 4vh;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    width: 6%;
+    height: 5vh;
+    background-color: #828562;
+    border-radius: 4px;
+    margin-left: 95px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.align_echo{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6e3f26;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', sans-serif;
+}
+
+#form2-container{
+    margin-left: 45px;
+}
+
+.label_djur{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[name=name]{
+    margin-bottom: 15px;
+}
+
+input[name=name2]{
+    margin-bottom: 15px;
+}
+
+.echo_stat{
+    text-align: center;
+}
+
+.array-result{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+footer{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+ }
+
+.footercontainer{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: #c1d0b1;
+    position: absolute;
+    bottom: 8px;
+    color: #3D0612;
+}
+
+
